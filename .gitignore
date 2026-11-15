@@ -1,10 +1,32 @@
+# Frontend / Vite
 node_modules/
+client/node_modules/
 client/dist/
-.env
+dist/
+*.log
+
+# Python and Flask
 .venv/
+venv/
 __pycache__/
 *.pyc
+.pytest_cache/
+.coverage
 server/data/*
 !server/data/.gitkeep
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+
+# OS/editor files
 .DS_Store
+Thumbs.db
 .vscode/
+.idea/
