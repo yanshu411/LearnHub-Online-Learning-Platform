@@ -1,0 +1,10 @@
+node_modules/
+client/dist/
+.env
+.venv/
+__pycache__/
+*.pyc
+server/data/*
+!server/data/.gitkeep
+.DS_Store
+.vscode/
